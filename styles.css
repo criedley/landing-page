@@ -1,4 +1,162 @@
+body { 
+    margin: 0;
+}
+.container{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 10px 200px 10px 200px;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    font-size: 18px;
+    
+}
+
+.header-links ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero .left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    width: 100px;
+}
 #welcome-image {
     height: auto;
     width: 300px;
+    border-radius: 10px;
+}
+
+.info {
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.info .main-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .card-list {
+    display: flex;
+    gap: 15px;
+}
+
+.info .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info .box {
+    color: #3882F6;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.info .secondary-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 50px 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimonial .author {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    padding: 50px 100px;
+    margin: 50px 300px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action .main-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid #e5e7eb;
+    color: #E5E7EB;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
